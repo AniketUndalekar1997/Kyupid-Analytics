@@ -1,38 +1,96 @@
-.App {
+body {
+  background-color: rgb(224, 224, 236) !important;
+  width: 100%;
+}
+
+.app {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.map {
+  width: 60%;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-top: 16px;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 60px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.proUsers_map {
+  width: 60%;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-top: 16px;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 60px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.proMatch_map {
+  width: 60%;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-top: 16px;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 60px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.app__bottom {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.proUsers_table {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.proUsersMatch_table {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 16px;
+  height: 100%;
+  margin-left: 130px;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.pro_table {
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 16px;
+  height: 100%;
+  margin-left: 130px;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.proMatch_table {
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 16px;
+  height: 100%;
+  margin-left: 130px;
+  padding: 10px;
+  margin-right: 30px;
 }

@@ -1,0 +1,38 @@
+.cardBox {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 250px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.percentSpan {
+  color: rgb(76, 175, 80);
+  font-weight: 600;
+  background: rgba(76, 175, 80, 0.1);
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 500px;
+}
+
+.mPerSpan {
+  color: rgb(32, 108, 223);
+  font-weight: 600;
+  background: rgba(76, 175, 80, 0.1);
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 500px;
+}
+
+.fPerSpan {
+  color: rgb(228, 25, 235);
+  font-weight: 600;
+  background: rgba(76, 175, 80, 0.1);
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 500px;
+}
+
+.userIcon {
+  float: left;
+}
